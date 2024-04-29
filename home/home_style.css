@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EDBD00;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon_header{
+    background: none;
+    border: none;
+    width: 10%;
+}
+
+.icones_direita{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-right: 1.5%;
+}
+
+.icones_direita p, .icones_direita img {
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    background-color: #2C2A2A;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2vw;
+}
+
+#link_pesquisa{
+    width: 60%;
+}
+
