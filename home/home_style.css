@@ -11,6 +11,7 @@ header{
 }
 
 #icon_header{
+    display: flex;
     background: none;
     border: none;
     width: 10%;
@@ -23,7 +24,7 @@ header{
     margin-right: 1.5%;
 }
 
-.icones_direita p, .icones_direita img {
+.icone_esquerda, .icones_direita p, .icones_direita img {
     cursor: pointer;
 }
 
@@ -38,6 +39,25 @@ main{
 }
 
 #link_pesquisa{
-    width: 60%;
+    width: 30%;
+    height: 3vh;
+    text-align: center;
+}
+#resultado_pesquisa{
+    width: 50%;
+    padding-bottom: 20%;
+    text-align: start;
+    font-size: 2vh;
+    resize: none;
 }
 
+#resultado_link_pesquisa{
+    width: 10%;
+}
+
+
+
+
+#link_pesquisa, #resultado_pesquisa, #resultado_link_pesquisa{
+    border-radius: 5px;
+}
