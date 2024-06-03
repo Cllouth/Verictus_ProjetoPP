@@ -39,9 +39,10 @@ main{
 }
 
 #link_pesquisa{
-    width: 30%;
-    height: 3vh;
+    width: 50%;
+    height: 4vh;
     text-align: center;
+    color: gray;
 }
 #resultado_pesquisa{
     width: 50%;
@@ -52,7 +53,7 @@ main{
 }
 
 #resultado_link_pesquisa{
-    width: 10%;
+    width: 50%;
 }
 
 
