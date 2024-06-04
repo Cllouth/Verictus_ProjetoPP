@@ -31,5 +31,5 @@ router.post('/user', user);
 // // DELETE 
 
 // router.delete('/metas/deletando', deleteMetasJovem);
-
-// module.exports = router;
+ 
+module.exports = router;

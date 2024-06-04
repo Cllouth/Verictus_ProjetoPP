@@ -7,12 +7,12 @@ const dotenv = require('dotenv').config();
 
 async function user(request, response) {
     const params = Array(
-        request.body.name,
+        request.body.nome,
         request.body.email,
-        request.body.password
+        request.body.senha
     )
 
-    const query = "INSERT INTO usuarios_verictus(name, email, password) VALUES(?,?,?)";
+    const query = "INSERT INTO usuarios_verictus(nome, email, senha) VALUES(?,?,?)";
 
     connection.query(query, params, (err, results) => {
         if(results) {
