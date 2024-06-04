@@ -7,11 +7,11 @@ button.onclick = async function (e) {
     // let name = document.getElementById('name').value;
     // let email = document.getElementById('email').value;
     // let password = document.getElementById('password').value;
-    let name = "teu pai";
-    let email = "sexo@gmail.com"
-    let password = "1234"
+    let nome = "teu pai";
+    let email = "sexo2@gmail.com"
+    let senha = "1234"
 
-    let data = { name, email, password}
+    let data = { nome, email, senha}
 
     // POST
     const response = await fetch('http://localhost:3008/api/user', {
